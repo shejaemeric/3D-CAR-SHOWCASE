@@ -5,8 +5,8 @@ import { LinearEncoding, RepeatWrapping, TextureLoader } from "three";
 
 export function Ground() {
     const [roughness, normal] = useLoader(TextureLoader, [
-        "./public/texture/terrain-roughness.jpg",
-        "./public/texture/terrain-normal.jpg",
+        "public/texture/terrain-roughness.jpg",
+        "public/texture/terrain-normal.jpg",
     ]);
 
 
